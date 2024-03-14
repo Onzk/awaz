@@ -11,7 +11,7 @@ Ce projet a été réalisé dans un cadre scolaire par des étudiants.
 
 * Université : Université Catholique de l'Afrique de l'Ouest - Unité Universitaire du Togo ([UCAO-UUT](https://ucao-uut.tg/)).
 
-* Institu : Cycle Ingénieur - Année préparatoire
+* Institut : Cycle Ingénieur - Année préparatoire
 
 * Cours : Programmation python
 
