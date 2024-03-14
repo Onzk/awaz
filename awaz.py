@@ -225,7 +225,7 @@ def augmentation_percent(old_amount: float, amount_augmentation: float) -> float
     )
 
     # Opération de calcul
-    return (amount_augmentation / old_amount) * 100
+    return (amount_augmentation / old_amount)
 
 # Diminution en pourcentage.
 def diminution_percent(old_amount: float, amount_diminution:float) -> float:
@@ -257,7 +257,7 @@ def diminution_percent(old_amount: float, amount_diminution:float) -> float:
     )
 
     # Opération de calcul
-    return (amount_diminution / old_amount) * 100
+    return (amount_diminution / old_amount)
 
 """## Section analyse numérique et statistiques
 
@@ -462,7 +462,7 @@ def fisher_real_interest(nominal_interest: float, estimated_inflation: float) ->
     )
 
     # Opération de calcul
-    return (1 + nominal_interest) / (1 + estimated_inflation) - 1
+    return ((1 + nominal_interest) / (1 + estimated_inflation)) - 1
 
 # Calcul d'un taux forward.
 def forward_interest(
@@ -772,8 +772,8 @@ def period_start_future_annuity_value(
     return (
         annuity
         * (1 + periodic_rate)
-        * ((pow(1 + periodic_rate), periods) - 1)
-        / periodic_rate
+        * (pow(1 + periodic_rate, periods * 12) - 1)
+        / (periodic_rate)
     )
 
 # Valeur future d'une série d'annuités égales placées
@@ -808,7 +808,7 @@ def period_end_future_annuity_value(
     )
 
     # Opération de calcul
-    return annuity * ((pow(1 + periodic_rate), periods) - 1) / periodic_rate
+    return annuity * (pow(1 + periodic_rate, periods * 12) - 1) / periodic_rate
 
 # Montant de l'annuité requise pour constitution d'un
 # capital à une durée et un taux donnés.
