@@ -19,7 +19,7 @@ Ce projet a été réalisé dans un cadre scolaire par des étudiants.
 
 * Année scolaire : 2023-2024 
 
-* Professeur en charge : Mr APEKE
+* Professeur en charge : Dr APEKE Kodjo
 
 * Membres du Groupe 6 : 
     * DOSSOU Eugénie Dede
