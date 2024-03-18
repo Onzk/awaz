@@ -379,7 +379,7 @@ def ponderous_mean(values: list, factors:list) -> float:
     )
 
     # Opération de calcul
-    return sum([value * factor for value, factor in zip(values)]) / sum(factors)
+    return sum([value * factor for value, factor in zip(values, factors)]) / sum(factors)
 
 """## Section valeur temps de l'argent
 
